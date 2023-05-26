@@ -1,4 +1,3 @@
-import Avatar from "./Avatar";
 import styles from "./hero.module.scss";
 import Reveal from "../../Utils/Reveal";
 

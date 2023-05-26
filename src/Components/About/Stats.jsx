@@ -1,5 +1,5 @@
 import styles from "./stats.module.scss";
-import { AiFillCode, AiFillSmile } from "react-icons/ai";
+import { AiFillCode} from "react-icons/ai";
 import Animate from '../../Utils/Animate'
 
 const Stats = () => {
@@ -21,6 +21,7 @@ const Stats = () => {
             <span className="chip">Responsive Design</span>
             <span className="chip">Redux</span>
             <span className="chip">Figma</span>
+            <span className="chip">Framer Motion</span>
             <span className="chip">Git</span>
             <span className="chip">GitHub</span>
             <span className="chip">PHP</span>
