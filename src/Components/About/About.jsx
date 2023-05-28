@@ -12,7 +12,7 @@ const About = () => {
       <div className={styles.about}>
         <div>
           <Animate>
-            <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
+            <p className={`${styles.aboutText} `}>
               Hey! I&apos;m Nirzar. I&apos;m software developer from Gujarat,
               India. I specialize in frontend, primarily React, but
               open to explore and learn whatever tools are right for the job.

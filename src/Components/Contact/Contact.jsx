@@ -36,6 +36,11 @@ const Contact = () => {
             </div>
           </a>
         </Animate>
+        <Animate width="100%">
+            <div className={styles.contactCopy}>
+              <span>BTW this portfolio was built using React, Sass and Framer Motion. You can find the project on my github :)</span>
+            </div>
+        </Animate>
       </div>
     </section>
   );
