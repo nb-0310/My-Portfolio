@@ -30,11 +30,11 @@ const projects = [
     projectLink: "https://ab-city-gym-website.vercel.app/",
     tech: ["React", "Tailwind", "Firebase"],
     description:
-      "Our gym website is a dynamic online platform designed to inspire and motivate individuals on their fitness journey. With a modern and user-friendly interface, we provide comprehensive information about our gym facilities, training programs, and expert trainers. ",
+      "My gym website is a dynamic online platform designed to inspire and motivate individuals on their fitness journey. With a modern and user-friendly interface, we provide comprehensive information about our gym facilities, training programs, and expert trainers. ",
     modalContent: (
       <>
         <p>
-          Our gym website is a robust and interactive online platform built
+          My gym website is a robust and interactive online platform built
           using React, Tailwind CSS, React Hooks, Context API, Firebase
           Authentication, Firestore, and deployed on Vercel. With its
           cutting-edge technology stack, the website offers an immersive

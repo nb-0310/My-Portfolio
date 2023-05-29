@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <header className={styles.navbar}>
       <Links />
-      <button className={styles.resume} onClick={() => window.open("/overleaf resume.pdf")}>
+      <button className={styles.resume} onClick={() => window.open("/Resume.pdf")}>
         My resume
       </button>
     </header>
