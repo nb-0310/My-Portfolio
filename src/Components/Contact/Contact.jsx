@@ -21,10 +21,6 @@ const Contact = () => {
             >
               Linkedin
             </a>{" "}
-            or{" "}
-            <a href="https://www.twitter.com" target="_blank" rel="nofollow">
-              Twitter
-            </a>{" "}
             if that&apos;s more your speed.
           </p>
         </Animate>
