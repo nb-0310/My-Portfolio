@@ -20,8 +20,8 @@ const Stats = () => {
             <span className="chip">Next JS</span>
             <span className="chip">Tailwind</span>
             <span className="chip">Sass</span>
-            <span className="chip">Responsive Design</span>
             <span className="chip">Redux</span>
+            <span className="chip">Responsive Design</span>
             <span className="chip">Figma</span>
             <span className="chip">Framer Motion</span>
             <span className="chip">Git</span>
