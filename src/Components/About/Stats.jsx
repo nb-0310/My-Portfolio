@@ -1,6 +1,6 @@
 import styles from "./stats.module.scss";
-import { AiFillCode} from "react-icons/ai";
-import Animate from '../../Utils/Animate'
+import { AiFillCode } from "react-icons/ai";
+import Animate from "../../Utils/Animate";
 
 const Stats = () => {
   return (
@@ -15,7 +15,9 @@ const Stats = () => {
             <span className="chip">HTML</span>
             <span className="chip">CSS</span>
             <span className="chip">JavaScript</span>
+            <span className="chip">Typescript</span>
             <span className="chip">React</span>
+            <span className="chip">Next JS</span>
             <span className="chip">Tailwind</span>
             <span className="chip">Sass</span>
             <span className="chip">Responsive Design</span>
@@ -33,4 +35,4 @@ const Stats = () => {
   );
 };
 
-export default Stats
+export default Stats;
