@@ -7,6 +7,7 @@ import Planit from "../../Assets/planit.png";
 import Pathfinding from "../../Assets/pathfinding.png";
 import Sorting from "../../Assets/sorting.png";
 import Weather from "../../Assets/weather.png"
+import portify from "../../Assets/portify.png"
 
 const Projects = () => {
   return (
@@ -23,6 +24,31 @@ const Projects = () => {
 };
 
 const projects = [
+  {
+    title: "Portify",
+    imgSrc: portify,
+    code: "https://github.com/nb-0310/portfolio-builder",
+    projectLink: "https://portify-portfolio-builder.vercel.app/",
+    tech: ["Next.js", "Typescript", "Tailwind"],
+    description:
+      "Build an impressive developer portfolio effortlessly with my Next.js and TypeScript-based portfolio builder. Showcase your projects, skills, and achievements in a professional and visually appealing manner. Stand out from the crowd and land your dream opportunities with ease.",
+    modalContent: (
+      <>
+        <p>
+        Elevate your online presence as a developer with our fully responsive portfolio builder built with Next.js, Tailwind CSS, and TypeScript. Customize your profile by editing your profile picture and cover page, and easily add social links to connect with your audience.
+        </p>
+        <p>
+        Craft a captivating resume that showcases your experience, education, and skills. Add, delete, and edit entries effortlessly to create a tailored resume that highlights your expertise and accomplishments. Present your technical proficiencies and demonstrate your ability to tackle a wide range of projects.
+        </p>
+        <p>
+        In the portfolio section, showcase your projects and playgrounds with ease. Add project links to provide a comprehensive overview of your work, allowing potential clients and employers to explore your creations. With the intuitive interface, you can organize and present your portfolio in a visually appealing manner.
+        </p>
+        <p>
+        Take advantage of the flexibility and versatility of our portfolio builder to create a standout online presence. Present your skills, experience, and projects in a way that sets you apart in the competitive tech industry. Build your professional portfolio today and make a lasting impression on your target audience.
+        </p>
+      </>
+    ),
+  },
   {
     title: "AbCity",
     imgSrc: abcity,
